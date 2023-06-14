@@ -44,6 +44,7 @@ Kafka combines three key capabilities
 * Events with the same event key (e.g., a customer or vehicle ID) are written to the same partition,  
 * Kafka guarantees that any consumer of a given topic-partition will always read that partition's events in exactly the same order as they were written.
 
-
-
-
+## Kafka Connect
+*  Kafka Connect allows you to continuously ingest data from external systems into Kafka, and vice versa. 
+*  Ex: You probably have lots of data in existing systems like relational databases or traditional messaging systems, along with many applications that already use these systems
+*  
